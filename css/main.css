@@ -1,0 +1,52 @@
+section {
+    padding: 10vh 0px;
+    line-height: 1.5em;
+    padding-left: 30px;
+}
+
+section p {
+    font-family: var(--fonte2);
+    font-size: 20px;
+
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+
+
+}
+
+section.imagen {
+    background: #2e2e2ed1;
+    color: white;
+
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.296);
+
+
+}
+
+section.imagen p {
+    display: inline-block;
+    padding: 5px;
+    background-color: #00000067;
+    border-radius: 4px;
+
+    text-shadow: 1px 1px 0px black;
+
+}
+
+#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: right, center;
+    background-size: cover;
+}
+
+#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: right, center;
+    background-size: cover;
+
+}
